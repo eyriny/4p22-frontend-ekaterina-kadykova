@@ -1,0 +1,14 @@
+body {
+    background-color: #FFFFFF;
+}
+
+table {
+    display:block;
+	width:1231px;
+	margin:20px auto;
+  }
+
+td {
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+}
