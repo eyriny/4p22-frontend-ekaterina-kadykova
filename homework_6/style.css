@@ -12,14 +12,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  width: 100%;
   min-width: 720px;
 }
 
 .header {
   position: relative;
-  width: 100%;
-  min-width: 720px;
+  width: 118.9375rem;
   height: 5.5625rem;
   display: inline-block;
   justify-content: left;
@@ -83,8 +81,9 @@ body {
 
 .section-content {
   position: absolute;
-  width: 100%;
-  left: 20.9375em;
+  width: 67.5rem;
+  height: calc(100vw - 89px);
+  left: 20.9375rem;
   top: 8.9375em;
 }
 
