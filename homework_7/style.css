@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1B2473;
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .login-form {
+        position: absolute;
+        width: calc(728/768 * 100vw);
+        height: calc(697/768 * 100vw);
+        left: calc(20/768 * 100vw);
+        top: 20px;
+        background: #FFFFFF;
+        box-shadow: 0 0 2.5rem 0.625rem rgba(0, 0, 0, 0.25);
+        border-radius: 1.25rem;
+}
+
+    .login-form__row-text-caption {
+        position: absolute;
+        width: calc(138/768 * 100vw);
+        height: calc(50/768 * 100vw);
+        left: calc(288/768 * 100vw);
+        top: calc(38/768 * 100vw);
+    }
+
+    .login-form__text-caption {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(60/768 * 100vw);
+        line-height: calc(50/768 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__label-email {
+        position: absolute;
+        width: calc(60/768 * 100vw);
+        height: calc(16/768 * 100vw);
+        left: calc(53/768 * 100vw);
+        top: calc(101/768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(24/768 * 100vw);
+        line-height: calc(16/768 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-email {
+        box-sizing: border-box;
+        position: absolute;
+        width: calc(638/768 * 100vw);
+        height: calc(49/768 * 100vw);
+        left: calc(45/768 * 100vw);
+        top: calc(125/768 * 100vw);
+        background: #FFFFFF;
+        border: 0.125rem solid #787878;
+        border-radius: calc(10/768 * 100vw);
+        padding-left: calc(15/768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(28/768 * 100vw);
+        line-height: calc(36/768 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-email::placeholder  {
+      color: #CCCCCC;
+    }
+
+    .login-form__label-password {
+        position: absolute;
+        width: calc(84/768 * 100vw);
+        height: calc(16/768 * 100vw);
+        left: calc(53/768 * 100vw);
+        top: calc(187/768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(24/768 * 100vw);
+        line-height: calc(16/768 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-password {
+        box-sizing: border-box;
+        position: absolute;
+        width: calc(638/768 * 100vw);
+        height: calc(49/768 * 100vw);
+        left: calc(45/768 * 100vw);
+        top: calc(211/768 * 100vw);
+        background: #FFFFFF;
+        border: 0.125rem solid #787878;
+        border-radius: calc(10/768 * 100vw);
+        padding-left: calc(15/768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(28/768 * 100vw);
+        line-height: calc(36/768 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-password::placeholder  {
+      color: #CCCCCC;
+    }
+
+    .login-form__label-checkbox {
+        position: absolute;
+        width: calc(358/768 * 100vw);
+        height: calc(16/768 * 100vw);
+        left: calc(87/768 * 100vw);
+        top: calc(287/768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(18/768 * 100vw);
+        line-height: calc(16/768 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-checkbox {
+        box-sizing: border-box;
+        position: absolute;
+        width: calc(32/768 * 100vw);
+        height: calc(32/768 * 100vw);
+        left: calc(45/768 * 100vw);
+        top: calc(279/768 * 100vw);
+        background: #FFFFFF;
+        border: 0.125rem solid #787878;
+        border-radius: calc(7/768 * 100vw);
+    }
+
+    .login-form__login-button {
+        position: absolute;
+        width: calc(220/768 * 100vw);
+        height: calc(80/768 * 100vw);
+        left: calc(254/768 * 100vw);
+        top: calc(375/768 * 100vw);
+        background: #1A226B;
+        border-radius: calc(10/768 * 100vw);
+        color: #FFFFFF;
+        font-size: calc(32/768 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        line-height: calc(16/768 * 100vw);
+        text-align: center;
+    }  
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 769px) {
+    .login-form {
+        position: absolute;
+        width: calc(600/1440 * 100vw);
+        height: calc(412/1440 * 100vw);
+        left: calc(412/1440 * 100vw);
+        top: calc(82/1440 * 100vw);
+        background: #FFFFFF;
+        box-shadow: 0 0 2.5rem 0.625rem rgba(0, 0, 0, 0.25);
+        border-radius: 1.25rem;
+}
+
+    .login-form__row-text-caption {
+        position: absolute;
+        width: calc(115/1440 * 100vw);
+        height: calc(50/1440 * 100vw);
+        left: calc(242/1440 * 100vw);
+        top: calc(26/1440 * 100vw);
+    }
+
+    .login-form__text-caption {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(50/1440 * 100vw);
+        line-height: calc(50/1440 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__label-email {
+        position: absolute;
+        width: calc(40/1440 * 100vw);
+        height: calc(16/1440 * 100vw);
+        left: calc(53/1440 * 100vw);
+        top: calc(93/1440 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(16/1440 * 100vw);
+        line-height: calc(16/1440 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-email {
+        box-sizing: border-box;
+        position: absolute;
+        width: calc(509/1440 * 100vw);
+        height: calc(49/1440 * 100vw);
+        left: calc(45/1440 * 100vw);
+        top: calc(112/1440 * 100vw);
+        background: #FFFFFF;
+        border: 0.125rem solid #787878;
+        border-radius: calc(10/1440 * 100vw);
+        padding-left: calc(15/1440 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(28/1440 * 100vw);
+        line-height: calc(36/1440 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-email::placeholder  {
+      color: #CCCCCC;
+    }
+
+    .login-form__label-password {
+        position: absolute;
+        width: calc(40/1440 * 100vw);
+        height: calc(16/1440 * 100vw);
+        left: calc(53/1440 * 100vw);
+        top: calc(174/1440 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(16/1440 * 100vw);
+        line-height: calc(16/1440 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-password {
+        box-sizing: border-box;
+        position: absolute;
+        width: calc(509/1440 * 100vw);
+        height: calc(49/1440 * 100vw);
+        left: calc(45/1440 * 100vw);
+        top: calc(193/1440 * 100vw);
+        background: #FFFFFF;
+        border: 0.125rem solid #787878;
+        border-radius: calc(10/1440 * 100vw);
+        padding-left: calc(15/1440 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: calc(28/1440 * 100vw);
+        line-height: calc(36/1440 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-password::placeholder  {
+      color: #CCCCCC;
+    }
+
+    .login-form__label-checkbox {
+        position: absolute;
+        width: calc(281/1440 * 100vw);
+        height: calc(16/1440 * 100vw);
+        left: calc(79/1440 * 100vw);
+        top: calc(258/1440 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: calc(14/1440 * 100vw);
+        line-height: calc(16/1440 * 100vw);
+        color: #787878;
+    }
+
+    .login-form__input-checkbox {
+        box-sizing: border-box;
+        position: absolute;
+        width: calc(24/1440 * 100vw);
+        height: calc(24/1440 * 100vw);
+        left: calc(45/1440 * 100vw);
+        top: calc(258/1440 * 100vw);
+        background: #FFFFFF;
+        border: 0.125rem solid #787878;
+        border-radius: calc(7/1440 * 100vw);
+    }
+
+    .login-form__login-button {
+        position: absolute;
+        width: calc(180/1440 * 100vw);
+        height: calc(52/1440 * 100vw);
+        left: calc(210/1440 * 100vw);
+        top: calc(334/1440 * 100vw);
+        background: #1A226B;
+        border-radius: calc(10/1440 * 100vw);
+        color: #FFFFFF;
+        font-size: calc(24/1440 * 100vw);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        line-height: calc(16/1440 * 100vw);
+        text-align: center;
+    }   
+}
