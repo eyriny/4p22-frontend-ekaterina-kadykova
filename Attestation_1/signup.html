@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-signup.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Вход</title>
+</head>
+<body>
+    <header class="header">
+        <section class="header__top-side">
+            <img src="images/1280px-IU_logo 1.png" alt="Логотип" class="header__logo">
+            <div class="header__heading">PCS Frontend</div>
+        </section>
+        <section class="header__top-side">
+            <a class="header__signup-item" href="signup.html">Регистрация</a>
+            <a class="header__login-item" href="login.html">Вход</a>
+        </section> 
+    </header>
+    <main>
+        <form class="signup-form">
+            <div class="signup-form__row-text-caption">
+               <span class="signup-form__text-caption">
+                    Регистрация
+                </span> 
+            </div>
+            <label class="signup-form__email-label" for id="email" name="email">
+                Email  
+            </label>
+            <input class="signup-form__email-input" id="email" type="email" name="email" placeholder="Введите email">
+            <label class="signup-form__password-label" for id="password" name="password">
+                Пароль
+            </label> 
+            <input class="signup-form__password-input" id="password" type="password" name="password" placeholder="Введите пароль">
+            <label class="signup-form__password-confirmation-label" for id="password-confirmation" name="password-confirmation">
+                Подтверждение пароля
+            </label> 
+            <input class="signup-form__password-confirmation-input" id="password-confirmation" type="password" name="password-confirmation" placeholder="Подтвердите пароль">
+
+            <label class="signup-form__gender-label" for id="gender" name="gender">
+                Пол
+            </label>
+
+            <!--
+            <div class="signup-form__radio">
+                <div class="signup-form__radio-item">
+                    <input id="gender" checked type="radio" name="gender" value="Мужчина">
+                </div>
+                <label class="signup-form__male-gender-label" for id="gender" name="gender">Мужчина</label>                 
+                <div>
+                    <input class="signup-form__female-radio-input" id="gender" type="radio" name="gender" value="Женщина">
+                </div>    
+                <label class="signup-form__female-gender-label" for id="gender" name="gender">Женщина</label> 
+            </div>-->
+
+            <label class="signup-form__about-yourself-label" for id="about" name="about">
+                О себе
+            </label> 
+            <textarea class="signup-form__about-textarea" id="about" name="about" placeholder="Расскажите о себе..."></textarea>
+            
+            <div class="signup-form__checkbox">
+            <input class="signup-form__checkbox-input" id="checkbox" type="checkbox" name="checkbox"> 
+            <label for id="checkbox" name="checkbox">
+                Я согласен получать обновления на почту
+            </label>
+            
+            </div>
+            
+            
+
+            <button class="signup-form__signup-button">Регистрация</button>      
+        </form>
+    </main>
+</body>
+</html>
