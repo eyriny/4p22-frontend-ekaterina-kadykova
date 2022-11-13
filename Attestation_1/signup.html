@@ -48,17 +48,18 @@
                 Пол
             </label>
 
-            <!--
-            <div class="signup-form__radio">
-                <div class="signup-form__radio-item">
-                    <input id="gender" checked type="radio" name="gender" value="Мужчина">
-                </div>
-                <label class="signup-form__male-gender-label" for id="gender" name="gender">Мужчина</label>                 
-                <div>
-                    <input class="signup-form__female-radio-input" id="gender" type="radio" name="gender" value="Женщина">
-                </div>    
-                <label class="signup-form__female-gender-label" for id="gender" name="gender">Женщина</label> 
-            </div>-->
+            
+            <div class="signup-form__radio-male">
+                <input class="signup-form__radio-item" id="male-gender" checked type="radio" name="gender" value="Мужчина">
+                <label for="male-gender" name="gender">Мужчина</label>   
+            </div>
+            
+            <div class="signup-form__radio-female">
+                <input class="signup-form__female-radio-input" id="female-gender" type="radio" name="gender" value="Женщина">
+                <label for="female-gender" name="gender">Женщина</label> 
+            </div>    
+            
+           
 
             <label class="signup-form__about-yourself-label" for id="about" name="about">
                 О себе
@@ -66,8 +67,8 @@
             <textarea class="signup-form__about-textarea" id="about" name="about" placeholder="Расскажите о себе..."></textarea>
             
             <div class="signup-form__checkbox">
-            <input class="signup-form__checkbox-input" id="checkbox" type="checkbox" name="checkbox"> 
-            <label for id="checkbox" name="checkbox">
+            <input class="signup-form__checkbox-input" id="checkbox" type="checkbox" name="checkbox" value="yes"> 
+            <label for="checkbox" name="checkbox">
                 Я согласен получать обновления на почту
             </label>
             
